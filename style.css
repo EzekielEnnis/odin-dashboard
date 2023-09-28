@@ -475,13 +475,15 @@ main {
 .card {
   background-color: var(--clr-neutral-50);
 
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 2rem 0 1rem 2rem;
 
   display: grid;
   grid-template-rows: auto auto 1fr;
 
   height: 200px;
+
+  box-shadow: 3.5rem 0px 0px -3rem var(--clr-accent-500) inset;
 }
 
 .heading-project {
