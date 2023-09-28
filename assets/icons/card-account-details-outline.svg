@@ -1,9 +1,1 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-	<title>card-account-details-outline</title>
-	<defs>
-		<image  width="24" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAMAAAB2Mu6sAAAAAXNSR0IB2cksfwAAAEVQTFRF////////////////////////////////////////////////////////////////////////////////////////////kBY+3AAAABd0Uk5TTdX/St0AZu5kPHhIbWgBXYq9WzXf6OZWxeagAAAAaElEQVR4nJWR3Q6AIAiFES1S+9Gs3v9RG81WM1x17uDbGXAAUChIaTBSH9EAYiMI8RW0RN3RYN2A5doKDsfACQ7PtZdm9ERDnvFpq3EKMYZ5LEFa8rmpAOsZxFaAK6IfkTxBNXZdedQOBHQG7dfEN4QAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-	</style>
-	<use id="card-account-details-outline" href="#img1" x="0" y="3"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14" /></svg>

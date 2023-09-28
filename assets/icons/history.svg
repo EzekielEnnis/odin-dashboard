@@ -1,9 +1,1 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-	<title>history</title>
-	<defs>
-		<image  width="21" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAASCAMAAACDzGUcAAAAAXNSR0IB2cksfwAAAQhQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////WzEhywAAAFh0Uk5TADOJx/CIMiO//7ggLertfEcUfe7pLCKtE7DnoKXFSOQGgAjmRZt0dZfYJirT9QUN8o/XJ/GMc0zZ+YcJNdSWcfy3e5gCoi8xRsBsrxHoHA/baBIMjjbJLjhKG04AAADbSURBVHicZZDnUgJBEIQHjmAj6TgUiZJFQIKSlCRRAQMgwvu/CTd3y3FV9I/t6a92pmaXSMhilWw2ye4gk5xXEHJdG9Dtgdfnl2V/QEHwRsBbD0J3eimHERG3JUTPw2KIa57AfZIdKT7TGWTZc8jTmdIDCmyPKJppCWW2J1TMtIqa2q6pzvT5RacNoibDFsd25/WtS9RDXw0DYKgvVQm8j4jGmKj1dJY3lp1/8GafdKEYFqdyufoSL17h+0fA3zWCmyrRtqWgUzLa/nKnn9ylzeP+d/uGItkPWjgCX7oU4qEO67AAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-	</style>
-	<use id="history" href="#img1" x="1" y="3"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>

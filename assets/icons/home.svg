@@ -1,9 +1,1 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-	<title>home</title>
-	<defs>
-		<image  width="24" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAMAAABrN94UAAAAAXNSR0IB2cksfwAAAKhQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1UVUWwAAADh0Uk5TABIRAT25tjoizf/IHk3V0UUHQuD+/ds5BgqD7up0XfPtUK749aAFjvt+FjO+/LElI9C9GM9AvzDcpQOzAAAAjUlEQVR4nGNgQABGJgZsgJmFlY2dGYsEBycXFzcPpjgvHxcQ8AugCQsKCYuAJETFxCWQxSWlpLmgQEZWEElCTp4LDhQUEeqVlLmQgIqqGkScR12DCwUoa2qBxLV1RLjQgK6ePgODgSG6MAgYGYMNQxeG245fwsQUCEywSJiBWGaDSALkUFNzEMsczASxAD0BE1nTYHQ3AAAAAElFTkSuQmCC"/>
-	</defs>
-	<style>
-	</style>
-	<use id="home" href="#img1" x="0" y="1"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>

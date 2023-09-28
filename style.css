@@ -258,12 +258,14 @@ select {
   --clr-accent-500: #f5930b;
 
   --clr-neutral-50: #fafafa;
-  --clr-neutral-300: #d4d4d4;
+  --clr-neutral-200: #e5e7eb;
+  --clr-neutral-400: #a1a1aa;
   --clr-neutral-900: #0a0a0a;
 
   --fs-logo: 1.75rem;
-  --fs-sidebar: 1rem;
-  --fs-header-account: 0.75rem;
+  --fs-sidebar: 1.25rem;
+  --fs-header-greeting: 1rem;
+  --fs-header-account: 1.5rem;
   --fs-cards-heading: 0.75rem;
   --fs-cards-content: 0.375rem;
 
@@ -272,7 +274,7 @@ select {
 
 body {
   display: grid;
-  grid-template: 200px 1fr/max(12rem, 16vw) 1fr;
+  grid-template: 200px 1fr / max(15rem, 16vw) 1fr;
 
   font-family: var(--ff);
 }
@@ -281,6 +283,96 @@ body {
 header {
   grid-row: 1/2;
   grid-column: 2/3;
+
+  display: grid;
+  grid-template: 1fr 2fr / 2fr 1fr;
+
+  padding-inline: 3rem;
+
+  box-shadow: 0px -5px 20px  var(--clr-neutral-400);
+
+  & svg {
+    width: 2rem;
+    fill: var(--clr-neutral-900);
+
+  }
+}
+
+.search-container {
+  grid: 1/2/1/2;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & input {
+    flex-grow: 1;
+
+    background-color: var(--clr-neutral-200);
+    border-radius: 1.5rem;
+    border: none;
+
+    padding-right: 1rem;
+    height: 2.5rem;
+  }
+}
+
+.account-container {
+  grid: 2/3/1/2;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+
+  font-size: var(--fs-header-account);
+  font-weight: 700;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;  
+
+  font-weight: 700;
+
+  & #greeting {
+    font-size: var(--fs-header-greeting);
+  }
+
+  & #account {
+    font-size: var(--fs-header-account);
+    margin-top: 1rem;
+  }
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background-color: var(--clr-primary-500);
+  color: var(--clr-neutral-50);
+  font-weight: 700;
+
+  border-radius: 2rem;
+  border: none;
+
+  padding: 0.875em 1.625rem;
+}
+
+.pfp {
+  border-radius: 50%;
+}
+
+.pfp-1 {
+  width: 3rem;
+}
+
+.pfp-2 {
+  width: 5rem;
 }
 
 /* Sidebar */
@@ -294,13 +386,11 @@ nav {
 
   background-color: var(--clr-primary-500);
   padding: 1rem;
-
-  height: 100vh;
 }
 
 nav .logo {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 1rem;
 
   font-size: var(--fs-logo);
@@ -308,8 +398,9 @@ nav .logo {
 
   color: var(--clr-neutral-50);
 
-  & img{
-    width: 2.5rem;
+  & svg {
+    width: 3rem;
+    fill: var(--clr-neutral-50);
   }
 }
 
@@ -323,14 +414,19 @@ nav a {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+
+  & svg {
+    width: 1.75rem;
+    fill: var(--clr-neutral-50);
+  }
 }
 
 nav a:focus,
-nav a:hover{
+nav a:hover {
   scale: 1.05;
 }
 
-nav li{
+nav li {
   margin-bottom: 1.5rem;
   margin-left: 0.5rem;
 }
