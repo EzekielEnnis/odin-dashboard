@@ -261,13 +261,12 @@ select {
   --clr-neutral-300: #d4d4d4;
   --clr-neutral-900: #0a0a0a;
 
-  --fs-logo: 2rem;
+  --fs-logo: 1.75rem;
   --fs-sidebar: 1rem;
   --fs-nav-account: 0.75rem;
   --fs-cards-heading: 0.75rem;
   --fs-cards-content: 0.375rem;
 
-  --ff: "Monterrat"
-
+  --ff: "Monterrat";
 }
 

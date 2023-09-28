@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3Z" /></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>note-multiple</title>
+	<defs>
+		<image  width="22" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAAXNSR0IB2cksfwAAAFFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////eBZUbAAAABt0Uk5TAFDh/3fr3WUU22sg34OMIeR4K+ZT2ctU6FjMkiliRwAAAFxJREFUeJzV0FkOgCAMRdEndZ7Aedj/QhWMEKAuwPt52qRJgbtEkC2FLXOaU2HZKZUV1Qyjaakz5LP2nmFIRQPDGAWF/E7/zCrUyfC8+LpueN4Q9cF7fE8vHifHF1SKBYgPVRWCAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="note-multiple" href="#img1" x="1" y="2"/>
+</svg>

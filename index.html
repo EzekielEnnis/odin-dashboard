@@ -7,13 +7,38 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="sidebar">
+    <header>
+      <div class="search-container">
+        <label for="searchbar"
+          ><img src="assets/icons/magnify.svg" alt="Search" /></label
+        ><input type="search" name="searchbar" id="seachbar" />
+      </div>
+      <div class="account-container">
+        <a href=""
+          ><img
+            src="assets/icons/bell-badge-outline.svg"
+            alt="Notifications" /></a
+        ><img src="assets/img/pfp.png" alt="Profile Picture" />
+        <p>John Doe</p>
+      </div>
+      <div class="welcome-container">
+        <img src="assets/img/pfp.png" alt="Profile Picture" />
+        <div class="welcome-text">
+          <p>Hi there,</p>
+          <p>John Doe (@johndoe123)</p>
+        </div>
+      </div>
+      <div class="btns-container">
+        <button>New</button><button>Upload</button><button>Share</button>
+      </div>
+    </header>
+    <nav class="sidebar">
       <div class="logo">
         <img src="assets/icons/view-dashboard.svg" alt="Logo" />
         <h1>Dashboard</h1>
       </div>
 
-      <ul class="sidebar-Nav">
+      <ul role="list" class="links-section1">
         <li id="sidebar-home">
           <a href="">
             <img src="assets/icons/home.svg" alt="Home Icon" />
@@ -55,7 +80,7 @@
         </li>
       </ul>
 
-      <ul>
+      <ul role="list" class="links-section2">
         <li id="sidebar-settings">
           <a href="|">
             <img src="assets/icons/cog.svg" alt="Settings Icon" />
@@ -75,50 +100,15 @@
           </a>
         </li>
       </ul>
-    </div>
-
-    <nav>
-      <div class="nav-searchbar">
-        <img src="assets/icons/magnify.svg" alt="Search Icon" /><input
-          type="search"
-          name="searchNav"
-          id=""
-        />
-      </div>
-      <div class="nav-account">
-        <img
-          src="assets/icons/bell-badge-outline.svg"
-          alt="Notifications"
-        /><img src="assets/img/pfp.png" alt="Profile Picture" />
-        <div>John Doe</div>
-      </div>
     </nav>
-    <div class="options">
-      <div class="account-greet">
-        <img src="assets/img/pfp.png" alt="Profile Picture" />
-        <p>Hi there,</p>
-        <h1>John Doe (@johndoe123)</h1>
-      </div>
-      <div class="options-buttons">
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
-      </div>
-    </div>
-    <div class="section-projects">
-      <h2>My Projects</h2>
+
+    <main>
       <div class="projects">
+        <div class="title">Your Projects</div>
         <div class="card">
-          <div>
-            <h3>Super Cool Project</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              eum provident explicabo praesentium aliquid nobis? Nobis officiis
-              libero labore dolores, maxime aspernatur ipsum tempore vitae quis
-              nam, accusantium deleniti iste.
-            </p>
-          </div>
-          <div class="buttons">
+          <div class="heading-project">Super Cool Project</div>
+          <div class="text-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque provident maxime at!</div>
+          <div class="btn-container-project">
             <a href=""
               ><img
                 src="assets/icons/star-plus-outline.svg"
@@ -131,17 +121,69 @@
           </div>
         </div>
         <div class="card">
-          <div>
-            <h3>Less Cool Project</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ab
-              laborum, dolorum, odit expedita sint quo numquam possimus quas
-              aliquid exercitationem eligendi beatae doloribus consequatur
-              perferendis, assumenda atque suscipit! Illum, dolores. Amet fuga
-              minus, facilis beatae sequi obcaecati voluptates consectetur?
-            </p>
+          <div class="heading-project">Less Cool Project</div>
+          <div class="text-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, amet laborum!</div>
+          <div class="btn-container-project">
+            <a href=""
+              ><img
+                src="assets/icons/star-plus-outline.svg"
+                alt="Favorite" /></a
+            ><a href=""
+              ><img src="assets/icons/eye-plus-outline.svg" alt="Track" /></a
+            ><a href=""
+              ><img src="assets/icons/share-variant-outline.svg" alt="Share"
+            /></a>
           </div>
-          <div class="buttons">
+        </div>
+        <div class="card">
+          <div class="heading-project">Impossible App</div>
+          <div class="text-project">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo?</div>
+          <div class="btn-container-project">
+            <a href=""
+              ><img
+                src="assets/icons/star-plus-outline.svg"
+                alt="Favorite" /></a
+            ><a href=""
+              ><img src="assets/icons/eye-plus-outline.svg" alt="Track" /></a
+            ><a href=""
+              ><img src="assets/icons/share-variant-outline.svg" alt="Share"
+            /></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="heading-project">Easy Peasy App</div>
+          <div class="text-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id perspiciatis adipisci porro harum dolor?</div>
+          <div class="btn-container-project">
+            <a href=""
+              ><img
+                src="assets/icons/star-plus-outline.svg"
+                alt="Favorite" /></a
+            ><a href=""
+              ><img src="assets/icons/eye-plus-outline.svg" alt="Track" /></a
+            ><a href=""
+              ><img src="assets/icons/share-variant-outline.svg" alt="Share"
+            /></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="heading-project">Ad Blocker</div>
+          <div class="text-project">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tempora in omnis quos reprehenderit?</div>
+          <div class="btn-container-project">
+            <a href=""
+              ><img
+                src="assets/icons/star-plus-outline.svg"
+                alt="Favorite" /></a
+            ><a href=""
+              ><img src="assets/icons/eye-plus-outline.svg" alt="Track" /></a
+            ><a href=""
+              ><img src="assets/icons/share-variant-outline.svg" alt="Share"
+            /></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="heading-project">Money Maker</div>
+          <div class="text-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis at, blanditiis nisi in esse dolore?</div>
+          <div class="btn-container-project">
             <a href=""
               ><img
                 src="assets/icons/star-plus-outline.svg"
@@ -154,37 +196,57 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="section-announcements">
-      <h2>Announcements</h2>
-      <div class="announ-cards">
-        <div class="announ-section">
-          <h3>Site Maintenance</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            reiciendis, dolorem deleniti quas nemo veritatis nihil
-            necessitatibus dolorum magni quaerat.
-          </p>
-        </div>
-        <div class="announ-section">
-          <h3>Community Share Day</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-            deleniti, sequi doloribus at officia magni.
-          </p>
-        </div>
-        <div class="announ-section">
-          <h3>Upload Privacy Policy</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            ullam enim, magnam sit error corrupti voluptatibus sapiente natus
-            repudiandae numquam reprehenderit dicta in temporibus possimus.
-          </p>
+      <div class="announcements">
+        <div class="title">Trending</div>
+        <div class="cards-announce">
+          <div class="announcement">
+            <div class="heading-announcemnet">Site Maintenance</div>
+            <div class="text-announcement">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              fugiat rem quis iusto...
+            </div>
+          </div>
+          <div class="announcement">
+            <div class="heading-announcemnet">Community Share Day</div>
+            <div class="text-announcement">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              iure sunt nulla....
+            </div>
+          </div>
+          <div class="announcement">
+            <div class="heading-announcemnet">Site Maintenance</div>
+            <div class="text-announcement">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ex
+              veniam lorem...
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="section-trending"><div class="trending"></div></div>
+      <div class="trending">
+        <title>Trending</title>
+        <div class="trend-cards">
+          <div class="trend">
+            <img src="assets/img/pfp.png" alt="Profile Picture" />
+            <p>@JaneD</p>
+            <p>Super Cool Project</p>
+          </div>
+          <div class="trend">
+            <img src="assets/img/pfp.png" alt="Profile Picture" />
+            <p>@DwayneDLuffy</p>
+            <p>World Peace Builder</p>
+          </div>
+          <div class="trend">
+            <img src="assets/img/pfp.png" alt="Profile Picture" />
+            <p>@XxCoolAidxX</p>
+            <p>Life Changing App</p>
+          </div>
+          <div class="trend">
+            <img src="assets/img/pfp.png" alt="Profile Picture" />
+            <p>@</p>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
