@@ -266,8 +266,9 @@ select {
   --fs-sidebar: 1.25rem;
   --fs-header-greeting: 1rem;
   --fs-header-account: 1.5rem;
-  --fs-cards-heading: 0.75rem;
-  --fs-cards-content: 0.375rem;
+  --fs-main-titles: 1.25rem;
+  --fs-cards-heading: 1.25em;
+  --fs-cards-content: 1rem;
 
   --ff: "Monterrat";
 }
@@ -446,19 +447,69 @@ main {
   grid-column: 2/3;
 
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 2fr;
   grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
 
   background-color: var(--clr-neutral-200);
 
+  padding: 2rem;
+
   & svg {
     width: 1.5rem;
+    fill: var(--clr-neutral-600);
   }
 }
 
 .projects {
   grid-row: 1/3;
   grid-column: 1/2;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--clr-neutral-50);
+
+  border-radius: 1rem;
+  padding: 2rem 0 1rem 2rem;
+
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+
+  height: 200px;
+}
+
+.heading-project {
+  font-size: var(--fs-cards-heading);
+  font-weight: 700;
+
+  align-self: start;
+  margin-bottom: 0.5rem;
+}
+
+.text-project {
+  font-size: var(--fs-cards-content);
+  font-weight: normal;
+
+  color: var(--clr-neutral-600);
+
+  align-self: start;
+  margin-right: 1rem;
+}
+
+.btn-container-project {
+  align-self: end;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+
+  margin-right: 2rem;
 }
 
 .announcements {
@@ -469,4 +520,10 @@ main {
 .trending {
   grid-row: 2/3;
   grid-column: 2/3;
+}
+.title {
+  font-weight: 600;
+  font-size: var(--fs-main-titles);
+
+  margin-block: 1rem;
 }
