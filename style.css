@@ -312,8 +312,9 @@ header {
     border-radius: 1.5rem;
     border: none;
 
-    padding-right: 1rem;
-    height: 2.5rem;
+    padding-inline: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
   }
 }
 
@@ -361,6 +362,12 @@ button {
   border: none;
 
   padding: 0.875em 1.625rem;
+
+  &:focus,
+  &:hover {
+    scale: 1.05;
+    cursor: pointer;
+  }
 }
 
 .pfp {
