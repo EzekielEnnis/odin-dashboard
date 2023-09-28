@@ -259,7 +259,7 @@ select {
 
   --clr-neutral-50: #fafafa;
   --clr-neutral-200: #e5e7eb;
-  --clr-neutral-400: #a1a1aa;
+  --clr-neutral-600: #525252;
   --clr-neutral-900: #0a0a0a;
 
   --fs-logo: 1.75rem;
@@ -289,7 +289,9 @@ header {
 
   padding-inline: 3rem;
 
-  box-shadow: 0px -5px 20px  var(--clr-neutral-400);
+  box-shadow: 0px -5px 20px  var(--clr-neutral-600);
+  position: relative;
+  z-index: 1;
 
   & svg {
     width: 2rem;
