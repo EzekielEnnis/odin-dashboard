@@ -501,6 +501,16 @@ main {
   box-shadow: 3.5rem 0px 0px -3rem var(--clr-accent-500) inset;
 }
 
+.cards button {
+  all: unset;
+  
+  &:hover,
+  &:focus{
+    scale: 1.1;
+    cursor: pointer;
+  }
+}
+
 .heading-project {
   font-size: var(--fs-cards-heading);
   font-weight: 700;
