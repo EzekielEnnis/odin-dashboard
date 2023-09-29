@@ -269,6 +269,8 @@ select {
   --fs-main-titles: 1.25rem;
   --fs-cards-heading: 1.25em;
   --fs-cards-content: 1rem;
+  --fs-announcement-heading: 1rem;
+  --fs-announcement-text: 0.875rem;
 
   --ff: "Monterrat";
 }
@@ -528,4 +530,38 @@ main {
   font-size: var(--fs-main-titles);
 
   margin-block: 1rem;
+}
+
+.cards-announce {
+  background-color: var(--clr-neutral-50);
+  border-radius: 1rem;
+
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.announcement {
+  margin-inline: 0.5rem;
+}
+
+.heading-announcement {
+  font-size: var(--fs-announcement-heading);
+  font-weight: 600;
+
+  margin-bottom: 0.25rem;
+}
+
+.text-announcement {
+  font-size: var(--fs-announcement-text);
+  color: var(--clr-neutral-600) ;
+}
+
+.break {
+  width: 100%;
+  height: 0.125rem;
+  border-radius: 0.125rem;
+  opacity: 0.5;
 }
