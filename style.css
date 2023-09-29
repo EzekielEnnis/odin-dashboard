@@ -253,6 +253,11 @@ select {
 
 /*! MAIN !*/
 
+div:hover,
+p:hover {
+  cursor: default;
+}
+
 :root {
   --clr-primary-500: #0ea5e9;
   --clr-accent-500: #f5930b;
