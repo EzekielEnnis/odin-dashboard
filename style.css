@@ -282,6 +282,24 @@ body {
   font-family: var(--ff);
 }
 
+/* Utility */
+
+.pfp-1 {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.pfp-2 {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.pfp-3 {
+  border-radius: 50%;
+  width: 3.5rem;
+}
+
+
 /* Header */
 header {
   grid-row: 1/2;
@@ -375,16 +393,6 @@ button {
     scale: 1.05;
     cursor: pointer;
   }
-}
-
-.pfp-1 {
-  border-radius: 50%;
-  width: 3rem;
-}
-
-.pfp-2 {
-  border-radius: 50%;
-  width: 5rem;
 }
 
 /* Sidebar */
@@ -564,4 +572,39 @@ main {
   height: 0.125rem;
   border-radius: 0.125rem;
   opacity: 0.5;
+}
+
+.trend-cards {
+  background-color: var(--clr-neutral-50);
+  border-radius: 1rem;
+
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.trend {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 70%;
+
+  & img {
+    grid-row: span 2;
+    grid-column: 1/2;
+
+    margin: 0.5rem;
+    justify-self: center;
+  }
+}
+
+.trend-tag {
+  align-self: end;
+  margin-bottom: 0.125rem;
+  font-size: var(--fs-announcement-text);
+  font-weight: 500;
+}
+
+.trend-project {
+  font-size: var(--fs-announcement-heading);
+  color: var(--clr-neutral-600);
 }
