@@ -252,8 +252,9 @@ select {
 }
 
 /*! MAIN !*/
-
-div:hover,
+h1:hover,
+h2:hover,
+h3:hover,
 p:hover {
   cursor: default;
 }
