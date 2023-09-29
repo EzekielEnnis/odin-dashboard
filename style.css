@@ -494,14 +494,23 @@ main {
   padding: 2rem 0 1rem 2rem;
 
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto 1fr;
 
   height: 200px;
 
   box-shadow: 3.5rem 0px 0px -3rem var(--clr-accent-500) inset;
 }
 
-.cards button {
+.card a {
+  all: unset;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+.card button {
   all: unset;
   
   &:hover,
